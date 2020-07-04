@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Number Guesser</title>
+    <title>Number Guesser - O Adivinhador de Números</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
@@ -12,53 +12,60 @@
         <h1>Number Guesser!</h1>
       </header>
       
+        <h2>O Adivinhador de Números</h2>
       <div class="rounds">
-        <p class="round-label">Round <span id="round-number">1</span></p>
-        <p class="guess-label">Target Number: <span id="target-number">?</span></p>
+        <p class="round-label">Rodada <span id="round-number">1</span></p>
+        <p class="guess-label">O Número é: <span id="target-number">?</span></p>
       </div>
 
       <div class="guessing-area">
         <div class="guess computer-guess">
           <div class="guess-title">
-            <p class="guess-label">Computer</p>
-            <p class="score-label">Score: <span id="computer-score">0</span></p>
+            <p class="guess-label">Computadô</p>
+            <p class="score-label">Pontos: <span id="computer-score">0</span></p>
           </div>
           <p id="computer-guess">?</p>
           <p class="winning-text" id="computer-wins"></p>
         </div>
         <div class="guess human-guess">
           <div class="guess-title">
-            <p class="guess-label">You</p>
-            <p class="score-label">Score: <span id="human-score">0</span></p>
+            <p class="guess-label">Você</p>
+            <p class="score-label">Pontos: <span id="human-score">0</span></p>
           </div>
           <input type="number" id="human-guess" min=0 max=9 value=0>
           <div class="number-controls">
             <button class="number-control left" id="subtract" disabled>-</button>
             <button class="number-control right" id="add">+</button>
           </div>
-          <button class="button" id="guess">Make a Guess</button>
+          <button class="button" id="guess">Seu Palpite</button>
         </div>
       </div>
 
       <div class="next-round-container">
-        <button class="button" id="next-round" disabled>Next Round</button>
+        <button class="button" id="next-round" disabled>Próxima Rodada</button>
       </div>
 
     </div>
+    <div class="instructions-header"><h2>Como jogar</h2></div>
     
     <div class="instructions">
+      
       <div class="instruction">
-        <h3>Step 1</h3>
-        <p>Input a number between 0 and 9</p>
+        <h3>Passo 1</h3>
+        <p>Insira um número entre 0 e 9</p>
       </div>
       <div class="instruction">
-        <h3>Step 2</h3>
-        <p>Click "Make a Guess" to submit your guess and see who won the round.</p>
+        <h3>Passo 2</h3>
+        <p>Clique em "Seu Palpite" para enviar o número e ver quem acertará a rodada.</p>
       </div>
       <div class="instruction">
-        <h3>Step 3</h3>
-        <p>Click "Next Round" to play again.</p>
+        <h3>Passo 3</h3>
+        <p>Clique em "Próxima Rodada" para jogar de novo e ganhar mais pontos.</p>
       </div>
+    </div>
+    <div class="footer">
+      <p>Porque a vida tem que ser divertida.</p>
+      <p>2020 Codecademy, feito com <3 por <a href="https://esuguimo.com.br">ericabot</a></p>
     </div>
 
     <script src="./script.js"></script>

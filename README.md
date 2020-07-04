@@ -12,7 +12,11 @@ This is a PRO Subscription challenge and there are a .zip  with the first files:
 - index.js
 - script.js
 - style.css
-This README.md file was not in the package and I have done by myself. =ˆ.ˆ=
+- This README.md file was not in the package and I have done by myself. =ˆ.ˆ=
 
 ## Prerequisites
 In order to complete this project, the alumni should have completed the first 3 sections of Introduction to Javascript (this is a free course in Codecademy available to all).
+
+### by ericabot
+ericasugui@gmail.com
+esuguimo@student.42sp.org.br
