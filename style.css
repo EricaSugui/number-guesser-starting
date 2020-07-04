@@ -12,20 +12,76 @@
     .game-container {
       width: 100%;
       margin: 0 auto;
-      
+      text-align: center;
     }
     .round-label {
-      font-size: 50px;
+      font-size: 20px;
       font-weight: 700;
       margin-bottom: 0px;
     }
-    .guessing-area {
-      width: 100%;
-    }
     .guess {
-      width: 100%;
+      width: 50%;
       padding: 0;
     }
+    .guessing-area {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin-bottom: 60px;
+    }
+    .guess-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+    }
+    
+    .guess-label {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .score-label {
+      font-size: 14px;
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .target-guess {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    
+    .computer-guess {
+      background-color: #ececec;
+      height: 224px;
+    }
+    
+    #computer-guess {
+      font-size: 50px;
+      font-weight: 700;
+      color: #a5a5a5;
+    }
+    
+    .human-guess {
+      background-color:  #979797;
+    }
+    
+    .guess input {
+      height: 90px;
+      width: 90px;
+      font-size: 30px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 7px;
+    }
+    
+   
 }
 @media screen and (min-width: 600px) {
 body {
