@@ -23,24 +23,29 @@ In order to complete this project, the alumni should have completed the first 3 
 
 ## Improvements
 The default front of this project was not so beauty, so I edited the DOM and HTML files.
-Below, the original appeareance in desktop and smartphones.
+Below, the original appeareance in desktop and smartphones.  
+
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/original-home.jpg)
-> Uma página frontend feita por desenvolvedor backend?.
+> A frontend made by a backend developer, hum?.
 
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/original-celular.png)
-> É, não tava legal não.
+> Well, it was not good at all.  
+
 
 So, I decided to improve the front, using jQuery, Bootstrap and a little bit of patience.
-Below, the new front:
+Below, the new front:  
+
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-home.jpg)
-> Refiz as classes e coloquei um pouco de cor.
+> I did new classes and put a little of color.
 
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-home-iphone.jpg)
-> Adicionei media query para celulares.
-And I added an About the Game page, below:
+> Added smartphone's media query in the CSS style.  
+
+And I added an About the Game page, below:  
+
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-sobre.jpg)
-> Bem melhor assim..
+> Well done!
 
 ### by ericabot
 ericasugui@gmail.com
-esuguimo@student.42sp.org.br
+esuguimo@student.42sp.org.br ![](https://img.shields.io/badge/bot-esuguimo-blue)
