@@ -192,14 +192,21 @@
   .winning-text[disabled] {
     font-weight: 700;
   }
-  /* .sobre: {
+  .sobre {
     margin-bottom: 50px;
-  } */
+  }
+  .sobre p {
+    font-size: 18px;
+  }
   .sobreButton {
     margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
   }
   .voltarButton {
     margin: 70px 30px;
+    font-size: 18px;
+    font-weight: 700;
   }
   .footer {
     display: flex;
@@ -415,9 +422,13 @@
   }
   .sobreButton {
     margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
   }
   .voltarButton {
     margin: 70px 30px;
+    font-size: 18px;
+    font-weight: 700;
   }
   .footer {
     display: flex;
