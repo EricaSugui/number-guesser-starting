@@ -37,18 +37,20 @@
     .guess {
       /* width: 50%; */
       /* padding: 0; */
+      min-width: 160px;
+      height: 300px;
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 19px;
-      margin: 10px;
+      margin: 5px;
     }
     .guessing-area {
       /* width: 100%; */
       display: flex;
       justify-content: space-around;
       align-items: flex-start;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
     }
     .guess-title {
       display: flex;
@@ -79,7 +81,7 @@
     
     .computer-guess {
       background-color: #E97F02;
-      height: 300px;
+      /* height: 300px; */
     }
     
     #computer-guess {
@@ -90,7 +92,7 @@
     
     .human-guess {
       background-color:  #8A9B0F;
-      height: 300px;
+      /* height: 300px; */
     }
     
     .guess input {
@@ -104,6 +106,87 @@
     #target-number {
       font-size: 50px;
       color: #490A3D;
+    }
+    .number-controls {
+      font-size: 0;
+      margin-bottom: 10px;
+    }
+    
+    .number-control {
+      border: none;
+      /* display: inline-block; */
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      font-weight: 700;
+      color:white;
+      cursor: pointer;
+      margin: 3px;
+    }
+    
+    .number-controls button[disabled] {
+      color: #dfdfdf;
+      cursor: default;
+    }
+    
+    .controls {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    #next-round {
+      width: 171px;
+      height: 60px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+
+    .instructions-header {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 50px;
+    }
+    .instructions-header h2 {
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .instructions {
+      background-color: #F8CA00;
+      /* width: 100%; */
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+    
+    .instruction {
+      width: 180px;
+      padding: 19px;
+      text-align: center;
+    }
+    
+    .instructions h3 {
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .instructions p {
+      font-size: 18px;
+    }
+    
+    
+    .winning-text, .winning-text[disabled] {
+      color: #ec3636;
+      font-weight: 700;
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      color: #ececec;
+      background-color: #490A3D;
+      padding-top: 19px;
     }
     
    
@@ -277,28 +360,39 @@ input[type=number]::-webkit-inner-spin-button {
   justify-content: space-around;
 }
 .instructions {
-  background-color: #ececec;
-  width: 100%;
+  background-color: #F8CA00;
+  /* width: 100%; */
   display: flex;
   justify-content: space-around;
+  padding: 19px;
 }
 
 .instruction {
   width: 180px;
-  padding: 2px;
+  padding: 19px;
   text-align: center;
 }
 
 .instructions h3 {
-  font-size: 14px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.instructions p {
+  font-size: 18px;
 }
 
 
 .winning-text, .winning-text[disabled] {
-  color: #ec3636;
+  color: #fff;
+  font-size: 25px;
   font-weight: 700;
 }
 .footer {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  color: #ececec;
+  background-color: #490A3D;
+  padding-top: 18px;
 }
 }
