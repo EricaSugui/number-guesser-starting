@@ -15,7 +15,7 @@
   <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#490A3D">
-      <a class="navbar-brand" href="#numberGuesser"> Number Guesser! </a>
+      <a class="navbar-brand" href="./index.html"> Number Guesser! </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,7 +31,7 @@
             <a class="nav-link" href="https://www.linkedin.com/in/ericasuguimoto/">LinkedIn</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./sobre.html">Sobre esse jogo</a>
+            <a class="nav-link" href="./index.html">Voltar para o jogo</a>
           </li>
         </ul>
         <span class="navbar-text">
@@ -40,69 +40,33 @@
       </div>
     </nav>
 
-    <div class="game-container">
+    <div class="container-fluid col-10">
       
       <header class="text-center">
-        <h1 class="numberGuesser">Number Guesser!</h1>
+        <h1 class="title">Number Guesser!</h1>
       </header>
-        <h2 class="text-center">O Adivinhador de Números</h2>
-      <div class="rounds d-flex justify-content-center">
-        <p class="round-label">Rodada <span id="round-number">1</span></p>
-        <p class="guess-label">Adivinhe o número: <br><span id="target-number">?</span></p>
+        <h2 class="text-center">O Adivinhador de Números</h2><br>
+      <div class="sobre">
+        <div class="instructions btn sobreButton" style="background-color: #E97F02; color: white;">Sobre esse jogo</div>
+        <p class="">Desafio disponível no path de jogos Javascript do site codecademy.<br>
+            Consiste em fazer a lógica do jogo, em javascript, onde em uma disputa entre o jogador e o computador,
+        vence a disputa quem der o número mais próximo. Em caso de empate, o jogador vence.</p>
       </div>
 
-      <div class="guessing-area row text-center d-flex justify-content-center">
-        
-        <div class="col">
-          <div class="guess computer-guess btn">
-            <div class="guess-title">
-              <p class="guess-label">Computadô</p>
-              <p class="score-label">Pontos: <span id="computer-score">0</span></p>
-            </div>
-            <p id="computer-guess">?</p>
-            <p class="winning-text" id="computer-wins"></p>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="guess human-guess btn">
-            <div class="guess-title">
-              <p class="guess-label">Você</p>
-              <p class="score-label">Pontos: <span id="human-score">0</span></p>
-            </div>
-            <input type="number" id="human-guess" min=0 max=9 value=0>
-            <div class="number-controls">
-              <button class="number-control left btn" style="background-color: #490A3D;" id="subtract" disabled>-</button>
-              <button class="number-control right btn" style="background-color: #490A3D;" id="add">+</button>
-            </div>
-            <button class="btn btn-danger" id="guess">Seu palpite</button>
-          </div>
-        </div>
-        
+      <div class="sobre">
+        <div class="instructions btn sobreButton" style="background-color: #8A9B0F; color: white">Código</div>
+        <p class="">Código disponível no GitHub, em <a href="https://github.com/EricaSugui/number-guesser-starting">https://github.com/EricaSugui/number-guesser-starting</a>.<br>
+            Esse jogo foi construído usando o fluxo de Deploy Contínuo: escrito em localhost, fazendo push para a master
+        no GitHub, e push para o deploy "produção" no meu servidor HostGator.</p>
       </div>
-
-      <div class="next-round-container text-center">
-        <button class="btn btn-danger" id="next-round" disabled>Próxima Rodada</button>
+      <div class="sobre">
+        <a href="./index.html">
+            <div class="instructions btn voltarButton" style="background-color: #BD1550; color: white;">Voltar para o Jogo</div>
+          </a>
       </div>
 
     </div>
-    <div class="instructions-header text-center"><h2>Como jogar</h2></div>
-    
-    <div class="instructions row">
-      
-      <div class="instruction col">
-        <h3>Passo 1</h3>
-        <p>Insira um número entre 0 e 9</p>
-      </div>
-      <div class="instruction col">
-        <h3>Passo 2</h3>
-        <p>Clique em "Seu Palpite" para enviar o número e ver quem acertará a rodada.</p>
-      </div>
-      <div class="instruction col">
-        <h3>Passo 3</h3>
-        <p>Clique em "Próxima Rodada" para jogar de novo e ganhar mais pontos.</p>
-      </div>
-    </div>
+
     <div class="footer text-center container-fluid">
       <p>Porque a vida tem que ser divertida.</p>
       <p>2020 feito com <3 por <a href="https://esuguimo.com.br">ericabot</a>, challenge disponível na <a href="https://www.codecademy.com/">codecademy</a>.</p>
