@@ -26,10 +26,13 @@ The default front of this project was not so beauty, so I edited the DOM and HTM
 Below, the original appeareance in desktop and smartphones.  
 
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/original-home.jpg)
-> A frontend made by a backend developer, hum?.
+> A frontend made by a backend developer, hum?.  
+
+  
 
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/original-celular.png)
 > Well, it was not good at all.  
+  
 
 
 So, I decided to improve the front, using jQuery, Bootstrap and a little bit of patience.
@@ -37,15 +40,20 @@ Below, the new front:
 
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-home.jpg)
 > I did new classes and put a little of color.
+  
+    
 
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-home-iphone.jpg)
 > Added smartphone's media query in the CSS style.  
+  
+    
 
 And I added an About the Game page, below:  
 
 ![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-sobre.jpg)
 > Well done!
-
+  
+  
 ### by ericabot
 ericasugui@gmail.com
 esuguimo@student.42sp.org.br ![](https://img.shields.io/badge/bot-esuguimo-blue)
