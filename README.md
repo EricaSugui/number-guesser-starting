@@ -19,6 +19,16 @@ This is a PRO Subscription challenge and there are a .zip  with the first files:
 ## Prerequisites
 In order to complete this project, the alumni should have completed the first 3 sections of Introduction to Javascript (this is a free course in Codecademy available to all).
 
+## Improvements
+The default front of this project was not so beauty, so I edited the DOM and HTML files.
+ Below, the original appeareance in desktop and smartphones.
+ [here we go]
+So, I decided to improve the front, using jQuery, Bootstrap and a little bit of patience.
+Below, the new front:
+[fere we go]
+And I added an About the Game page, below:
+[gere we go]
+
 ### by ericabot
 ericasugui@gmail.com
 esuguimo@student.42sp.org.br
