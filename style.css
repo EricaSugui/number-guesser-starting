@@ -438,6 +438,7 @@
   .footer {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     text-align: center;
     color: #ececec;
     background-color: #490A3D;
