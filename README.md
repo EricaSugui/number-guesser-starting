@@ -24,14 +24,22 @@ In order to complete this project, the alumni should have completed the first 3 
 ## Improvements
 The default front of this project was not so beauty, so I edited the DOM and HTML files.
 Below, the original appeareance in desktop and smartphones.
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/original-home.jpg)
+> Uma página frontend feita por desenvolvedor backend?.
 
-> Follow your heart.
+![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/original-celular.png)
+> É, não tava legal não.
+
 So, I decided to improve the front, using jQuery, Bootstrap and a little bit of patience.
 Below, the new front:
-[fere we go]
+![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-home.jpg)
+> Refiz as classes e coloquei um pouco de cor.
+
+![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-home-iphone.jpg)
+> Adicionei media query para celulares.
 And I added an About the Game page, below:
-[gere we go]
+![](https://github.com/EricaSugui/number-guesser-starting/blob/master/img/nova-sobre.jpg)
+> Bem melhor assim..
 
 ### by ericabot
 ericasugui@gmail.com
