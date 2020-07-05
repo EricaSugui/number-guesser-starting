@@ -34,7 +34,7 @@ guessButton.addEventListener('click', () => {
 
   // Display the winner
   if (humanIsWinner) {
-    guessButton.innerText = 'Acertô Miserávi!';
+    guessButton.innerText = 'Acertô!';
     guessButton.classList.toggle('winning-text')
   } else {
     computerWinsDisplay.innerText = 'Ih, faiô';
