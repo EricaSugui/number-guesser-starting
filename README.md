@@ -1,6 +1,8 @@
 # Number Guesser
 
 live https://esuguimo.com.br/projetos/adivinhador/ and in Portuguese
+[![Website esuguimo.com.br/projetos/adivinhador](https://img.shields.io/website-up-down-green-red/http/esuguimo.com.br/projetos/adivinhador.svg)](http://esuguimo.com.br/projetos/adivinhador/)
+
 
 ## Overview
 This project is slightly different than others encountered in Codecademy. Instead of a step-by-step tutorial, this project contains open-ended requirements. There are many possible ways to correctly do the things, and they expect the alumni uses the internet, Codecademy, and other resources when encounter a problem that we cannot easily solve.
@@ -21,8 +23,10 @@ In order to complete this project, the alumni should have completed the first 3 
 
 ## Improvements
 The default front of this project was not so beauty, so I edited the DOM and HTML files.
- Below, the original appeareance in desktop and smartphones.
- [here we go]
+Below, the original appeareance in desktop and smartphones.
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+> Follow your heart.
 So, I decided to improve the front, using jQuery, Bootstrap and a little bit of patience.
 Below, the new front:
 [fere we go]
