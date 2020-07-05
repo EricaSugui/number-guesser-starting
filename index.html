@@ -6,73 +6,107 @@
     <meta charset=”UTF-8”></meta>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#490A3D">
+      <a class="navbar-brand" href="#">esuguimo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://esuguimo.com.br">Blog da Erica <span class="sr-only">(conheça meu site)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/EricaSugui">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/ericasuguimoto/">LinkedIn</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Desenvolvedora Javascript, cadet na 42SãoPaulo.
+        </span>
+      </div>
+    </nav>
+
     <div class="game-container">
-      <nav>testes</nav>
-      <header>
+      
+      <header class="text-center">
         <h1>Number Guesser!</h1>
       </header>
-        <h2>O Adivinhador de Números</h2>
-      <div class="rounds">
+        <h2 class="text-center">O Adivinhador de Números</h2>
+      <div class="rounds d-flex justify-content-center">
         <p class="round-label">Rodada <span id="round-number">1</span></p>
-        <p class="guess-label">O Número é: <span id="target-number">?</span></p>
+        <p class="guess-label">Adivinhe o número: <br><span id="target-number">?</span></p>
       </div>
 
-      <div class="guessing-area">
-        <div class="guess computer-guess">
-          <div class="guess-title">
-            <p class="guess-label">Computadô</p>
-            <p class="score-label">Pontos: <span id="computer-score">0</span></p>
+      <div class="guessing-area row text-center d-flex justify-content-center">
+        
+        <div class="col">
+          <div class="guess computer-guess btn">
+            <div class="guess-title">
+              <p class="guess-label">Computadô</p>
+              <p class="score-label">Pontos: <span id="computer-score">0</span></p>
+            </div>
+            <p id="computer-guess">?</p>
+            <p class="winning-text" id="computer-wins"></p>
           </div>
-          <p id="computer-guess">?</p>
-          <p class="winning-text" id="computer-wins"></p>
         </div>
-        <div class="guess human-guess">
-          <div class="guess-title">
-            <p class="guess-label">Você</p>
-            <p class="score-label">Pontos: <span id="human-score">0</span></p>
+        
+        <div class="col">
+          <div class="guess human-guess btn">
+            <div class="guess-title">
+              <p class="guess-label">Você</p>
+              <p class="score-label">Pontos: <span id="human-score">0</span></p>
+            </div>
+            <input type="number" id="human-guess" min=0 max=9 value=0>
+            <div class="number-controls">
+              <button class="number-control left btn btn-success" id="subtract" disabled>-</button>
+              <button class="number-control right btn btn-success" id="add">+</button>
+            </div>
+            <button class="btn btn-danger" id="guess">Seu palpite</button>
           </div>
-          <input type="number" id="human-guess" min=0 max=9 value=0>
-          <div class="number-controls">
-            <button class="number-control left" id="subtract" disabled>-</button>
-            <button class="number-control right" id="add">+</button>
-          </div>
-          <button class="button" id="guess">Seu Palpite</button>
         </div>
+        
         
       </div>
 
-      <div class="next-round-container">
-        <button class="button" id="next-round" disabled>Próxima Rodada</button>
+      <div class="next-round-container text-center">
+        <button class="btn btn-danger" id="next-round" disabled>Próxima Rodada</button>
       </div>
 
     </div>
-    <div class="instructions-header"><h2>Como jogar</h2></div>
+    <div class="instructions-header text-center"><h2>Como jogar</h2></div>
     
-    <div class="instructions">
+    <div class="instructions text-center row">
       
-      <div class="instruction">
+      <div class="instruction col">
         <h3>Passo 1</h3>
         <p>Insira um número entre 0 e 9</p>
       </div>
-      <div class="instruction">
+      <div class="instruction col">
         <h3>Passo 2</h3>
         <p>Clique em "Seu Palpite" para enviar o número e ver quem acertará a rodada.</p>
       </div>
-      <div class="instruction">
+      <div class="instruction col">
         <h3>Passo 3</h3>
         <p>Clique em "Próxima Rodada" para jogar de novo e ganhar mais pontos.</p>
       </div>
     </div>
-    <div class="footer">
+    <div class="footer text-center">
       <p>Porque a vida tem que ser divertida.</p>
       <p>2020 Codecademy, feito com <3 por <a href="https://esuguimo.com.br">ericabot</a></p>
     </div>
 
     <script src="./script.js"></script>
     <script src="./game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>

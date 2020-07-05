@@ -45,8 +45,3 @@ function getAbsoluteDistance(a, b) {
     return Math.abs(a - b);
 }
 
-// function alert(human) {
-//     if (human > 9) {
-//         alert("favor colocar números entre 0 e 9. Obrigada!")
-//     }
-// }
